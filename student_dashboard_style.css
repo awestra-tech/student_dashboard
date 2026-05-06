@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a; /* dark blue */
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Card style (dipakai semua section) */
+.clock,
+.greeting,
+.todo,
+.quote {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Top section */
+.top-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Todo */
+.todo input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+.todo button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #38bdf8;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.todo button:hover {
+  background-color: #0ea5e9;
+}
+
+/* List */
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
